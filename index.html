@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images Gallery</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1 id="gallery-title">Моя галерея</h1>
+        <div id="controls">
+            <button id="theme-toggle">Темная тема</button>
+            <button id="zoom-in">Увеличить</button>
+            <button id="zoom-out">Уменьшить</button>
+            <button id="reset-styles">Сбросить стили</button>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <div class="gallery-container">
+            <!-- image 1 -->
+            <div class="image-box" id="image1">
+                <img src="img/python-logo.png" alt="Изображение 1">
+                <p class="image-description">Первое изображение</p>
+                <button class="select-btn">Выбрать</button>
+                <button class="hide-btn">Скрыть</button>
+            </div>
+            <!-- image 2 -->
+            <div class="image-box" id="image2">
+                <img src="img/ts-logo.png" alt="Изображение 2">
+                <p class="image-description">Второе изображение</p>
+                <button class="select-btn">Выбрать</button>
+                <button class="hide-btn">Скрыть</button>
+            </div>
+            <!-- image 3 -->
+            <div class="image-box" id="image3">
+                <img src="img/go-logo.png" alt="Изображение 3">
+                <p class="image-description">Третье изображение</p>
+                <button class="select-btn">Выбрать</button>
+                <button class="hide-btn">Скрыть</button>
+            </div>
+        </div>
+
+        <!-- Status Panel -->
+        <div id="status-panel">
+            <p id="selected-counter">Выбрано изображений: 0</p>
+            <p id="hidden-counter">Скрыто изображений: 0</p>
+        </div>
+    </main>
+    <script src="scripts/image-library.service.js"></script>
+</body>
+</html>
