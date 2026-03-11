@@ -7,7 +7,7 @@ Creating an interactive web application for managing images using
 JavaScript (ES6+).
 
 ## Launch
-Run locally using [LiveServer](https://github.com/ritwickdey/vscode-live-server) on localhost:5500
+Run locally using [LiveServer](https://github.com/ritwickdey/vscode-live-server) on [localhost:5500](localhost:5500)
 
 ## Validations
 ### HTML
