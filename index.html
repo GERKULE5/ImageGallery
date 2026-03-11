@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images Gallery · TZ3</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1 id="gallery-title">Моя галерея</h1>
+        <div id="controls">
+            <button id="theme-toggle">Темная тема</button>
+            <button id="zoom-in">Увеличить</button>
+            <button id="zoom-out">Уменьшить</button>
+            <button id="reset-styles">Сбросить стили</button>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <div class="gallery-container">
+            <!-- image 1 -->
+            <div class="image-box" id="image1">
+                <img src="https://placeholder.co/300x200/FF6B6B/FFFFFF?text=Изображение+1" alt="Изображение 1">
+                <p class="image-description">Первое изображение</p>
+                <button class="select-btn">Выбрать</button>
+                <button class="hide-btn">Скрыть</button>
+            </div>
+            <!-- image 2 -->
+            <div class="image-box" id="image2">
+                <img src="https://placeholder.co/300x200/4ECDC4/FFFFFF?text=Изображение+2" alt="Изображение 2">
+                <p class="image-description">Второе изображение</p>
+                <button class="select-btn">Выбрать</button>
+                <button class="hide-btn">Скрыть</button>
+            </div>
+            <!-- image 3 -->
+            <div class="image-box" id="image3">
+                <img src="https://placeholder.co/300x200/45B7D1/FFFFFF?text=Изображение+3" alt="Изображение 3">
+                <p class="image-description">Третье изображение</p>
+                <button class="select-btn">Выбрать</button>
+                <button class="hide-btn">Скрыть</button>
+            </div>
+        </div>
+
+        <!-- Status Panel -->
+        <div id="status-panel">
+            <p id="selected-counter">Выбрано изображений: 0</p>
+            <p id="hidden-counter">Скрыто изображений: 0</p>
+        </div>
+    </main>
+</body>
+</html>
